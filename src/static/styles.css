@@ -2,30 +2,44 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+html {
+  background: #9edcf0;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  position: relative;
+  font-family: "Trebuchet MS", sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #26364a;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #f5f5f5;
+  padding: 24px;
+  background-image: linear-gradient(rgba(255, 251, 235, 0.72), rgba(255, 251, 235, 0.72)), url("school-background.svg");
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
   text-align: center;
-  padding: 20px 0;
+  padding: 26px 20px 24px;
   margin-bottom: 30px;
-  background-color: #1a237e;
+  background: #24528a;
   color: white;
-  border-radius: 5px;
+  border: 4px solid #26364a;
+  border-radius: 14px 14px 28px 14px;
+  box-shadow: 7px 7px 0 #26364a;
+  transform: rotate(-0.5deg);
 }
 
 header h1 {
   margin-bottom: 10px;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  letter-spacing: 0.02em;
+  text-shadow: 3px 3px 0 #17375f;
 }
 
 main {
@@ -42,10 +56,11 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.96);
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 3px solid #26364a;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 rgba(38, 54, 74, 0.85);
   width: 100%;
   max-width: 500px;
 }
@@ -53,22 +68,22 @@ section {
 section h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-  color: #1a237e;
+  border-bottom: 3px solid #f2b544;
+  color: #24528a;
 }
 
 .activity-card {
   margin-bottom: 15px;
   padding: 18px 16px;
-  border: 1px solid #dfe7ff;
-  border-radius: 12px;
-  background: linear-gradient(180deg, #ffffff 0%, #f5f7ff 100%);
-  box-shadow: 0 8px 20px rgba(26, 35, 126, 0.08);
+  border: 2px solid #8bb8c7;
+  border-radius: 8px 14px 8px 14px;
+  background: #fffdf5;
+  box-shadow: 3px 3px 0 rgba(38, 54, 74, 0.2);
 }
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #1a237e;
+  color: #24528a;
   font-size: 1.3rem;
 }
 
@@ -84,7 +99,7 @@ section h3 {
 .participants-section {
   margin-top: 14px;
   padding-top: 12px;
-  border-top: 1px solid #dfe3f3;
+  border-top: 2px dashed #8bb8c7;
 }
 
 .participants-section h5 {
@@ -156,18 +171,21 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
+  background-color: #e85d4a;
   color: white;
   border: none;
   padding: 10px 15px;
   font-size: 16px;
-  border-radius: 5px;
+  border: 2px solid #26364a;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  box-shadow: 3px 3px 0 #26364a;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #c9473b;
+  transform: translate(-1px, -1px);
 }
 
 .message {
@@ -202,5 +220,22 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
-  color: #666;
+  color: #26364a;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 16px;
+    background-position: 58% top;
+    background-attachment: scroll;
+  }
+
+  header {
+    margin-bottom: 24px;
+  }
+
+  main {
+    gap: 24px;
+  }
 }

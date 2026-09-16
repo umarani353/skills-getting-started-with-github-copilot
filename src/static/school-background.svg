@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustrated Mergington High School campus">
+  <rect width="1600" height="900" fill="#9edcf0"/>
+  <circle cx="1370" cy="150" r="78" fill="#ffd45c" stroke="#26364a" stroke-width="10"/>
+  <path d="M0 560 Q250 470 500 560 T1000 560 T1600 540 V900 H0Z" fill="#83c878" stroke="#26364a" stroke-width="12"/>
+  <path d="M0 650 Q250 570 500 650 T1000 640 T1600 620 V900 H0Z" fill="#5aa95f" stroke="#26364a" stroke-width="10"/>
+  <g stroke="#26364a" stroke-width="14" stroke-linejoin="round">
+    <path d="M350 575 V310 L800 145 L1250 310 V575 Z" fill="#f7f0d3"/>
+    <path d="M285 320 L800 110 L1315 320 L1250 370 L800 190 L350 370 Z" fill="#e85d4a"/>
+    <path d="M740 575 V410 H860 V575" fill="#e85d4a"/>
+    <path d="M670 410 H930 V575 H670 Z" fill="#f6c85f"/>
+    <path d="M445 390 H565 V500 H445 Z M1035 390 H1155 V500 H1035 Z" fill="#73c4df"/>
+    <path d="M470 420 H540 M1060 420 H1130" fill="none"/>
+    <path d="M370 575 H1230" fill="none"/>
+  </g>
+  <g fill="#f7f0d3" stroke="#26364a" stroke-width="9">
+    <path d="M150 660 H290 V810 H150 Z"/>
+    <path d="M1310 650 H1450 V810 H1310 Z"/>
+  </g>
+  <g fill="#e85d4a" stroke="#26364a" stroke-width="8">
+    <path d="M130 665 L220 590 L310 665 Z"/>
+    <path d="M1290 655 L1380 580 L1470 655 Z"/>
+  </g>
+  <path d="M590 900 Q800 690 1010 900" fill="#e2b86a" stroke="#26364a" stroke-width="12"/>
+  <g fill="#2d8b58" stroke="#26364a" stroke-width="8">
+    <circle cx="90" cy="700" r="48"/><circle cx="1520" cy="680" r="52"/>
+  </g>
+  <g fill="#fff" opacity=".85">
+    <path d="M180 145 q35 -35 70 0 q35 -35 70 0 q-35 35 -70 0 q-35 35 -70 0Z"/>
+    <path d="M1040 120 q35 -35 70 0 q35 -35 70 0 q-35 35 -70 0 q-35 35 -70 0Z"/>
+  </g>
+</svg>
